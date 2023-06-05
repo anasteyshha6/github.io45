@@ -1,0 +1,193 @@
+@import url(./font.css);
+
+*{
+    box-sizing: border-box;
+    font-family: 'Man';
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.section{
+    background-color: #e7ecf0;
+}
+
+.container_big{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+/* .logo{
+    width: 100px;
+    height: 30px;
+} */
+
+.text_nav{
+    display: flex;
+    
+}
+
+.text_nav h2{
+    font-family: 'Man';
+    font-size: 1.563rem;
+    font-weight: 700;
+    padding-right: 50px;
+    color: #07172e;
+}
+
+
+.info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 270px;
+}
+
+.info_block{
+    display: flex;
+    flex-direction: column;
+}
+
+.text_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.text_info h2{
+    font-family: 'Man';
+    font-size: 3.75rem;
+    font-weight: 700;
+    color: #07172e;
+    margin: 0;
+}
+
+.text_info p{
+    font-family: 'Man';
+    font-size: 1.563rem;
+    font-weight: 400;
+    color: #3c4148;
+    padding-bottom: 60px;
+}
+
+.button{
+    width: 50%;
+    background-color: #3586ff;
+    padding: 25px 70px;
+    border-radius: 15px;
+    box-shadow: 0 -3px #0d57c59f inset;
+    transition: 0.2s;
+    outline: 2px solid #3586ff;
+    outline-offset: 4px;
+}
+
+.button:hover{
+    background-color: #26569e;
+}
+
+.button a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Man';
+    font-weight: 600;
+    font-size: 1.563rem;
+    color: white;
+    
+}
+
+.info_photo{
+    width: 100%;
+
+}
+
+.block_kurs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 270px;
+}
+
+.block_kurs .zag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding-bottom: 70px;
+}
+
+.card{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f4f8;
+    padding: 20px 30px;
+    border-radius: 15px;
+    border: 1px solid rgba(221, 221, 221, 0.342);
+    transition: 0.2s;
+}
+
+.block_kurs .button{
+    width: 30%;
+    
+}
+
+.container_rec{
+    padding-bottom: 270px;
+}
+
+.block_reclama1{
+    background-size: cover;
+    background-image: url(/assets/img/5.jpg);
+    border-radius: 40px;
+    padding: 100px;
+    
+}
+
+.block_reclama1 .text_info{
+    width: 50%;
+    
+}
+
+.block_reclama1 .button{
+    width: 30%;
+    
+}
+
+.section_white{
+    background-color: white;
+}
+
+.section_white .info{
+    padding-top: 150px;
+}
+
+.section_white .text_info{
+    width: 80%;
+}
