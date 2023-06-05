@@ -60,6 +60,7 @@ a{
 }
 
 .info_block{
+    width: 80%;
     display: flex;
     flex-direction: column;
 }
@@ -71,7 +72,7 @@ a{
 
 .text_info h2{
     font-family: 'Man';
-    font-size: 3.75rem;
+    font-size: 2.5rem;
     font-weight: 700;
     color: #07172e;
     margin: 0;
@@ -79,7 +80,7 @@ a{
 
 .text_info p{
     font-family: 'Man';
-    font-size: 1.563rem;
+    font-size: 1.125rem;
     font-weight: 400;
     color: #3c4148;
     padding-bottom: 60px;
@@ -106,13 +107,13 @@ a{
     align-items: center;
     font-family: 'Man';
     font-weight: 600;
-    font-size: 1.563rem;
+    font-size: 1rem;
     color: white;
     
 }
 
 .info_photo{
-    width: 100%;
+    width: 50%;
 
 }
 
@@ -141,16 +142,19 @@ a{
 }
 
 .card{
-    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #f1f4f8;
-    padding: 20px 30px;
+    padding: 50px 100px;
     border-radius: 15px;
     border: 1px solid rgba(221, 221, 221, 0.342);
     transition: 0.2s;
+}
+
+.card:hover{
+    transform: scale(1.1);
 }
 
 .block_kurs .button{
@@ -179,6 +183,78 @@ a{
     width: 30%;
     
 }
+
+.block_online{
+    display: flex;
+    padding-bottom: 80px;
+}
+
+.photo_online{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*padding-right: 50px;*/
+}
+
+.photo_online img{
+    border-radius: 20px;
+}
+
+.block_online .info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.block_online .podzag{
+    font-family: 'Man';
+    font-size: 1rem;
+    font-weight: 600;
+    color: #07172e;
+    padding: 0;
+}
+
+.button_two{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tbutton{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.p1, .p2{
+    font-weight: 600;
+    color: #07172e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f4f8;
+    padding: 5px 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(221, 221, 221, 0.342);
+}
+
+.p1 .one{
+    margin: 0;
+    padding-right: 50px;
+}
+
+.p2 .one{
+    margin: 0;
+    padding-right: 50px;
+}
+
+.
+
+
+
 
 .section_white{
     background-color: white;
