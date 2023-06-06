@@ -513,10 +513,6 @@ a{
         background-size: cover;
     }
 
-    /*.big_block{*/
-    /*    padding-left: 20px;*/
-    /*}*/
-
     .block_online{
         flex-direction: column;
     }
